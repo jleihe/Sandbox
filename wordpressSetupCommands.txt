@@ -1,0 +1,500 @@
+   58  sudo /usr/local/bin/noip2
+   59  ls
+   60  ls webcam/
+   61  cd /var/www/
+   62  ls
+   63  ls html
+   64  ls
+   65  ls jleihe/
+   66  mysql
+   67  history | grep my
+   68  mysql -u jleihe
+   69  sudo mysql -u jleihe
+   70  sudo mysql -u jleihe -p Ultum-55
+   71  sudo mysql
+   72  sudo mysql -u jleihe
+   73  ls
+   74  sudo vim README
+   75  ls
+   76  git init
+   77  sudo git init
+   78  git status
+   79  git add .
+   80  sudo git add .
+   81  ls -a
+   82  rm .git/
+   83  rm -r .git/
+   84  sudo rm -r .git/
+   85  ls
+   86  ls -a
+   87  ls
+   88  clear
+   89  ls
+   90  mysql -u root -p
+   91  ls
+   92  sudo mkdir aleihe
+   93  sudo rsync -avP html/ aleihe/
+   94  sudo chown www-data:www-data * -R
+   95  sudo usermod -a -G www-data jleihe
+   96  cd aleihe/
+   97  vim wp-config.php 
+   98  cd ..
+   99  vim README 
+  100  sudo vim README 
+  101  sudo chmod 777 README 
+  102  ch cd /etc/apache2/sites-available
+  103  cd /etc/apache2/sites-available
+  104  ls
+  105  mv 000-default.conf default.conf
+  106  ls
+  107  sudo mv 000-default.conf default.conf
+  108  ls
+  109  vim LOG
+  110  ls
+  111  sudo vim LOG
+  112  sudo chmod 777 LOG
+  113  ls
+  114  cp default.conf aleihe.conf
+  115  sudo cp default.conf aleihe.conf
+  116  ls
+  117  ls -a
+  118  ls -al
+  119  su root
+  120  su root
+  121  su root
+  122  sudo passwd root
+  123  su root
+  124  ls
+  125  rm aleihe.conf 
+  126  sudo rm aleihe.conf 
+  127  sudo vim aleihe.conf
+  128  cat aleihe.conf 
+  129  clear ls
+  130  ls
+  131  cp aleihe.conf jleihe.conf
+  132  sudo cp aleihe.conf jleihe.conf
+  133  vim jleihe.conf 
+  134  sudo rm jleihe.conf 
+  135  sudo vim jleihe
+  136  ls
+  137  sudo rsync -avP /home/jleihe/wordpress/ /var/www/jleihe/
+  138  sudo vim /var/www/jleihe/wp-config.php 
+  139  sudo apt-get install php5-gd
+  140  ls
+  141  mv default.conf 000-default.conf
+  142  sudo mv default.conf 000-default.conf
+  143  ls
+  144  sudo vim 000-default.conf 
+  145  mv jleihe jleihe.conf
+  146  sudo mv jleihe jleihe.conf
+  147  ls
+  148  cat aleihe.conf 
+  149  sudo vim aleihe.conf 
+  150  sudo a2ensite jleihe
+  151  sudo a2ensite aleihe
+  152  su root
+  153  ls
+  154  cat html.conf 
+  155  rm html.conf 
+  156  sudo rm html.conf 
+  157  ls
+  158  ls -;
+  159  ls -l
+  160  cat http.conf 
+  161  sudo rm http.conf 
+  162  ls
+  163  ls -l
+  164  sudo service apache2 reload
+  165  history | grep reload
+  166  sudo /etc/init.d/apache2 reload
+  167  sudo systemctl daemon-reload
+  168  sudo /etc/init.d/apache2 reload
+  169  sudo /etc/init.d/apache2 reload -v
+  170  journalctl | tail
+  171  journalctl | tail
+  172  sudo journalctl | tail
+  173  apache2ctl configtest
+  174  apache2ctl
+  175  sudo a2dissite http
+  176  apache2ctl -S
+  177  apache2ctl
+  178  apache2ctl -S
+  179  cd ..
+  180  ls
+  181  cd sites-enabled/
+  182  ls
+  183  sudo rm http.conf 
+  184  ls
+  185  cat 000-default.conf 
+  186  cd ..
+  187  cd sites-available/
+  188  ls
+  189  sudo /etc/init.d/apache2 reload
+  190  sudo service apache2 reload
+  191  systemctl status apache2.service
+  192  journalctl -xn
+  193  cat 000-default.conf 
+  194  apachectl -t
+  195  cat /var/log/httpd/error.log
+  196  cat /var/log/apache2/
+  197  ls
+  198  cat /var/log/apache2
+  199  sudo cat /var/log/apache2
+  200  cd /var/log/apache2
+  201  sudo cd /var/log/apache2
+  202  cd /var/log/apache2/
+  203  journalctl -xe
+  204  :q
+  205  clear
+  206  ls
+  207  cat *
+  208  ls
+  209  sudo vim jleihe.conf 
+  210  sudo vim aleihe.conf 
+  211  sudo /etc/init.d/apache2 reload
+  212  journalctl -xn
+  213  systemctl status apache2.service
+  214  ls
+  215  sudo rm 000*
+  216  ls
+  217  ls
+  218  rm LOG 
+  219  sudo rm LOG 
+  220  ls
+  221  rm default-ssl.conf 
+  222  sudo rm default-ssl.conf 
+  223  ls
+  224  sudo vim 000-default.conf
+  225  sudo vim 000-default.conf
+  226  sudo vim 000-default.conf
+  227  ls
+  228  cd ../sites-enabled/
+  229  ls
+  230  ls ../sites-available/
+  231  cat dleihe.conf 
+  232  cat dleihe.zapto.org.conf 
+  233  rm dleihe.conf 
+  234  sudo rm dleihe.conf 
+  235  mv dleihe.zapto.org.conf dleihe.conf
+  236  sudo mv dleihe.zapto.org.conf dleihe.conf
+  237  ls
+  238  cd ../sites-available/
+  239  ls
+  240  mv dleihe.zapto.org.conf dleihe.conf
+  241  ls
+  242  ls
+  243  sudo mv dleihe.zapto.org.conf dleihe.conf
+  244  sudo a2ensite dleihe
+  245  sudo a2ensite jleihe
+  246  sudo a2ensite aleihe
+  247  sudo a2ensite 000-default.conf
+  248  service apache2 reload
+  249  sudo service apache2 reload
+  250  sudo service apache2 restart
+  251  systemctl status apache2.service
+  252  sudo vim default-ssl.conf
+  253  systemctl status apache2.service
+  254  sudo service apache2 restart
+  255  apache2ctl configtest
+  256  sudo service apache2
+  257  sudo service apache2 start
+  258  systemctl status apache2.service
+  259  sudo cp * ~/sitesavailable
+  260  mkdir ~/sitesavailable
+  261  sudo cp * ~/sitesavailable
+  262  ls ~/sitesavailable/
+  263  sudo apt-get purge apache2
+  264  sudo apt-get remove apache2
+  265  sudo apt-get install apache2
+  266  ls
+  267  sudo apt-get remove --purge apache2
+  268  sudo apt-get autoremove
+  269  ls
+  270  sudo apt-get install apache2
+  271  sudo /etc/init.d/apache2 restart
+  272  lynx "http://localhost"
+  273  ls
+  274  history 
+  275  history  | grep a2
+  276  sudo a2ensite dleihe
+  277  sudo a2ensite jleihe
+  278  sudo a2ensite aleihe
+  279  sudo service apache2 reload
+  280  diff aleihe.conf jleihe.conf 
+  281  sudo vim aleihe.conf 
+  282  sudo a2ensite aleihe
+  283  sudo service apache2 reload
+  284  ls ../sites-enabled/
+  285  sudo vim 000-default.conf 
+  286  sudo service apache2 reload
+  287  su jleihe
+  288  sudo vim 000-default.conf 
+  289  sudo service apache2 reload
+  290  cat 000-default.conf 
+  291  su jleihe 
+  292  ls
+  293  cd ..
+  294  ls mods-enabled/
+  295  sudo a2enmod pyp5
+  296  sudo apt-get intsall libapache2-mod-php
+  297  sudo apt-get instsall libapache2-mod-php
+  298  sudo apt-get install libapache2-mod-php
+  299  sudo apt-get install libapache2-mod-php
+  300  sudo apt-get install libapache2-mod-php
+  301  sudo a2enmod pyp5
+  302  a2enmod php
+  303  a2enmod php5
+  304  sudo a2enmod php5
+  305  sudo service apache2 restart
+  306  sudo a2dismod php5
+  307  sudo service apache2 restart
+  308  sudo apt-get install php5
+  309  sudo apt-get install libapache2-mod-php5
+  310  sudo service apache2 restart
+  311  sudo a2dismod php5
+  312  sudo a2enmod php5
+  313  sudo service apache2 restart
+  314  cd /var/www/jleihe/
+  315  ls
+  316  sudo vim wp-config.php 
+  317  cd ..
+  318  ls
+  319  cd aleihe/
+  320  ls
+  321  sudo vim wp-config.php 
+  322  cd /etc/apache2/sites-available/
+  323  ls
+  324  cat 00
+  325  cat 000-default.conf 
+  326  sudo vim 000-default.conf 
+  327  sudo service apache2 restart
+  328  ls ../sites-enabled/
+  329  mv aleihe.conf temp
+  330  sudo mv aleihe.conf temp
+  331  ls
+  332  sudo mkdir aleihe
+  333  history 
+  334  history  | grep rsync
+  335  sudo rsync -avP temp aleihe/
+  336  ls aleihe/
+  337  sudo rm aleihe/
+  338  sudo rm aleihe/*
+  339  sudo rsync -avP temp/* aleihe/
+  340  ls
+  341  history  | grep rsync
+  342  sudo rm aleihe/* && sudo rsync temp/ aleihe/
+  343  ls aleihe/
+  344  ls -a aleihe/
+  345  sudo rsync temp/ aleihe/
+  346  sudo rsync /etc/apache2/sites-available/temp/ aleihe/
+  347  ls temp 
+  348  ls temp/
+  349  sudo rsync -avP /home/jleihe/wordpress/ /var/www/aleihe
+  350  ls
+  351  sudo rm temp
+  352  sudo a2dissite aleihe
+  353  sudo rm aleihe/
+  354  sudo rm -r aleihe/
+  355  ls
+  356  cp jleihe.conf aleihe.conf
+  357  sudo cp jleihe.conf aleihe.conf
+  358  sudo vim aleihe.conf 
+  359  ls
+  360  sudo a2ensite aleihe.conf 
+  361  cd /var/www
+  362  ls
+  363  sudo mv aleihe/ temp
+  364  sudo mkdir aleihe
+  365  sudo rsync -avP /var/www/temp/ /var/www/aleihe
+  366  sudo rm -r temp/
+  367  ls
+  368  cd /etc/apache2/sites-available/
+  369  ls
+  370  cat aleihe.conf 
+  371  cat jleihe.conf 
+  372  ls
+  373  cd /var/www/
+  374  ls
+  375  cd aleihe/
+  376  ls
+  377  cat index.html 
+  378  ls
+  379  rm index.html 
+  380  sudo rm index.html 
+  381  ls
+  382  sudo vim wp-config.php 
+  383  history 
+  384   history | grep reload
+  385  sudo /etc/init.d/apache2 reload
+  386  cd ../jleihe/
+  387  sudo vim wp-config.php 
+  388  history | mysql
+  389  history | grep mysql
+  390  mysql -u root -p
+  391  mysqldump -u root proj -r proj.sql
+  392  sudo mysqldump -u root aleihe -r aleihe.sql
+  393  sudo mysqldump -u root -p aleihe -r aleihe.sql
+  394  ls
+  395  mysql -r root -p
+  396  sudo mysql -r root -p
+  397  mysql -u root -p
+  398  history | mysql
+  399  history | grep mysql
+  400  mysql -r jleihe -p
+  401  sudo mysql -u root -p
+  402  cd /etc/apache2/sites-available/
+  403  sudo vim aleihe.conf 
+  404  cd /var/www/aleihe/
+  405  ls
+  406  sudo vim wp-config.php 
+  407  sudo /etc/init.d/apache2 reload
+  408  sudo mysql -u root -p
+  409  sudo mysql -u root -p
+  410  ls
+  411  cat wp-load.php 
+  412  ls
+  413  cat readme.html 
+  414  ls
+  415  cat index.php 
+  416  sudo mysql -u root -p
+  417  ls
+  418  ls ../jleihe/
+  419  sudo rm ../jleihe/aleihe.sql 
+  420  diff index.php ../jleihe/index.php 
+  421  cd ..
+  422  ls
+  423  cd html/
+  424  ls
+  425  sudo vim index.html 
+  426  cd ../aleihe/
+  427  ls
+  428  cat wp-config.php 
+  429  ls
+  430  cd /etc/apache2/sites-available/
+  431  sudo vim 000-default.conf 
+  432   history | grep reload
+  433  sudo /etc/init.d/apache2 reload
+  434  cd /var/www/aleihe/
+  435  ls
+  436  cd /var/www/aleihe/
+  437  ls
+  438  sudo chown jleihe wp-content
+  439  chmod 770 wp-content/
+  440  chown jleihe wp-includes/
+  441  sudo chown jleihe wp-includes/
+  442  sudo chmod 770 wp-includes/
+  443  ls -al
+  444  ls
+  445  chmod 774 wp-includes/
+  446  chmod 774 wp-content/
+  447  chmod 777 wp-content/
+  448  chmod 777 wp-includes/
+  449  chmod 755 wp-includes/
+  450  chmod 755 wp-content/
+  451  chmod 777 wp-content/
+  452  chmod 777 wp-includes/
+  453  chmod 755 wp-content/
+  454  chmod 755 wp-includes/
+  455  ls
+  456  cd wp-content/uploads/
+  457  ls
+  458  ls 2016/
+  459  cd /var/www
+  460  ls
+  461  sudo mkdir kleihe
+  462  history 
+  463  history | grep sync
+  464  sudo rsync -avP aleihe/ kleihe/
+  465  cd kleihe/
+  466  cd wp-content/uploads/
+  467  ls
+  468  sudo rm -R 2016/ photo-gallery/*
+  469  ls
+  470  ls photo-gallery/
+  471  cd ../..
+  472  ls
+  473  sudo vim wp-config.php 
+  474  history 
+  475  history  | grep sql
+  476  sudo mysql -u jleihe -p
+  477  sudo mysql -u root -p
+  478  history | grep "cd /etc"
+  479  cd /etc/apache2/sites-available/
+  480  ls
+  481  sudo cp jleihe.conf kleihe.conf
+  482  sudo vim kleihe.conf 
+  483  history | grep a2
+  484  sudo a2ensite kleihe.conf 
+  485  sudo a2dissite kleihe.conf 
+  486  sudo a2ensite kleihe 
+  487  sudo service apache2 reload
+  488  history | grep noi
+  489  sudo apt-get remove noip2
+  490  cd /usr/local/src/
+  491  ls
+  492  cd noip-2.1.9-1/
+  493  ls
+  494  cat Makefile 
+  495  /usr/local/bin/noip2 -C 
+  496  sudo /usr/local/bin/noip2 -C 
+  497  kill 7381
+  498  sudo kill 7381
+  499  sudo /usr/local/bin/noip2 -C 
+  500  exit
+  501  sudo /usr/local/bin/noip2 -C 
+  502  cd /etc/apache2/sites-available/
+  503  ls
+  504  sudo vim 000-default.conf 
+  505  ls
+  506  sudo /etc/init.d/apache2 restart
+  507  cd ../sites-enabled/
+  508  ls
+  509  cat kleihe.conf 
+  510  cd /var/www/kleihe/
+  511  ls
+  512  cat wp-config.php 
+  513  sudo cat wp-config.php 
+  514  sudo mysql -u kleihe -p
+  515  cd /var/log
+  516  ls
+  517  sudo cat apache2/
+  518  cd apache2/
+  519  ls
+  520  sudo cd apache2/
+  521  cd apache2/
+  522  cd /etc/apache2/sites-available/
+  523  cat kleihe.conf 
+  524  sudo vim kleihe.conf 
+  525  sudo /etc/init.d/apache2 restart
+  526  sudo vim /var/log/apache2/error.og
+  527  sudo vim /var/log/apache2/error.log
+  528  cd /var/www/
+  529  sudo find . -type f -exec chmoddfd
+  530  sudo vim /var/log/apache2/error.log
+  531  sudo vim /var/log/apache2/error.log
+  532  ls
+  533  sudo find . -type f -exec chmod 777 {} +
+  534  ls -al
+  535  cd aleihe/
+  536  cd ..
+  537  sudo find . -type f -exec chmod 664 {} +
+  538  sudo find . -type d -exec chmod 775 {} +
+  539  sudo chmod 660 */wp-config.php
+  540  ls aleihe/* -al
+  541  ls aleihe/ -al
+  542  ls
+  543  cd jleihe/
+  544  sudo find . -type f -exec chmod 777 {} +
+  545  sudo find . -type f -exec chmod 664 {} +
+  546  sudo find . -type d -exec chmod 775 {} +
+  547  sudo chmod 660 wp-config.php
+  548  cd ../kleihe/
+  549  sudo find . -type f -exec chmod 777 {} +
+  550  sudo find . -type f -exec chmod 664 {} +
+  551  sudo find . -type d -exec chmod 775 {} +
+  552  sudo chmod 660 wp-config.php
+  553  cd ~
+  554  ls
+  555  cd repos/
+  556  ls
+  557  history >> wordpressSetupCommands.txt
